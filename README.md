@@ -12,7 +12,7 @@
 |固态硬盘|SKhynix HFM128GDHTNG-8310B 128G|
 |机械硬盘|WDC WD10SPZX-08Z10 1TB|
 |集成显卡|Intel UHD Graphics 620|
-|独立显卡|[已屏蔽]AMD Radeon RX 550 (2GB)|
+|独立显卡|AMD Radeon RX 550 (2GB)|
 |声卡|Conexant CX20753/4 (节点:15)|
 |有线网卡|Realtek R8111GUS|
 |无线网卡|Realtek RTL8821CE -> BCM94352Z (DW1560)|
@@ -38,7 +38,7 @@
 
 - 有线网卡：工作正常。
 
-- USB：读取文件、数据传输正常。
+- USB：读写文件、数据传输正常。
 
 - 键盘：PrtSc已映射为F13，工作正常。
 
