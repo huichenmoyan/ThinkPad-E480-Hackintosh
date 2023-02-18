@@ -80,7 +80,7 @@
 - Config
   - Storage > Controller Mode: AHCI mode
 
-3. 已注入MacBook Pro 2019的三码，但仍建议自己生成三码。
+3. 已注入`MacBook Pro 2019`的三码，但仍建议自己生成三码。
 
 ## 更新
 
