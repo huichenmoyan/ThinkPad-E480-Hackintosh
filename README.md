@@ -71,7 +71,7 @@
 
 - Security
   - Secure Boot > Secure Boot: Disabled
-  - Intel(R) SGX > Intel SGX: Disabled
+  - Intel(R) SGX > Intel (R) SGX Control: Disabled
 
 - Startup
   - UEFI/Legacy Boot: Both
