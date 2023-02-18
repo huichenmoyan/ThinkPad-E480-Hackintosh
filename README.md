@@ -32,7 +32,7 @@
 
 - 硬盘：工作正常。
 
-- 集成显卡：已伪装为`Intel HD Graphics 620`，将显存设置为3072MB。支持HDMI 2K@60Hz、1080P@60Hz。
+- 集成显卡：已伪装为`Intel HD Graphics 620`，将显存设置为3072MB。支持HDMI `2K@60Hz`、`1080P@60Hz`。
 
 - 声卡：注入ID:15，工作正常。
 
