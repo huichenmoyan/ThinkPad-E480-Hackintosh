@@ -22,7 +22,6 @@
 理论支持最新的macOS Ventura。
 
 已测试：
-
 - macOS Monterey 12.6.3
 - macOS Ventura 13.2.1
 
@@ -65,9 +64,9 @@
 
 ## 注意事项：
 
-请先使用通用镜像安装macOS，完成后再替换该EFI。
+1. 请先使用通用镜像安装macOS，完成后再替换该EFI。
 
-推荐在安装前在BIOS中更改如下：
+2. 推荐在安装前在BIOS中更改如下：
 
 - Security
   - Secure Boot > Secure Boot: Disabled
@@ -80,6 +79,8 @@
 
 - Config
   - Storage > Controller Mode: AHCI mode
+
+3. 已注入MacBook Pro 2019的三码，但仍建议自己生成三码。
 
 ## 更新
 
