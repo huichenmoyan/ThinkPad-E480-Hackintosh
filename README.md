@@ -87,3 +87,13 @@
 ### 2023-02-18
 OpenCore版本: 0.8.9
 - 初次上传。
+
+## 截图
+
+![图片](https://user-images.githubusercontent.com/65167412/219908060-64258a9c-de23-4fb4-b590-dd35989c57f3.png)
+
+![图片](https://user-images.githubusercontent.com/65167412/219908090-a21a9a7f-a8e2-4354-905f-701dc8978fd7.png)
+
+![图片](https://user-images.githubusercontent.com/65167412/219908105-016aa70d-f014-4c8d-a0c1-8bfd7836a1d1.png)
+
+![图片](https://user-images.githubusercontent.com/65167412/219908160-77dabe60-b898-42dd-9043-0040800f16af.png)
