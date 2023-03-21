@@ -19,13 +19,14 @@ Providing Hackintosh EFI for ThinkPad E480 (OpenCore)。
 |HDD|WDC WD10SPZX-08Z10 1TB|
 |Integrated Graphics|Intel UHD Graphics 620|
 |Discrete Graphics|[Blocked]AMD Radeon RX 550 (2GB)|
-|Sound Card|Conexant CX20753/4 (节点:15)|
+|Sound Card|Conexant CX20753/4 (layout-id:15)|
 |Ethernet|Realtek R8111GUS|
 |Wireless Card|Realtek RTL8821CE -> BCM94352Z (DW1560)|
 
 ## Supported Systems
 
 It theoretically supports macOS Ventura
+
 Tested on：
 
 - macOS Monterey 12.6.3
