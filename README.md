@@ -1,3 +1,8 @@
+<div align="center">
+<img src="https://img.skk.moe/2020/02/01/15deff1c-62cc-45b9-aac2-2f6bb9a4350b.jpg" width="350px">
+简体中文 | [English](README_EN.md)
+</div>
+
 # ThinkPad-E480-Hackintosh
 
 为ThinkPad E480提供的黑苹果EFI (OpenCore)。
