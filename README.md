@@ -30,6 +30,7 @@
 已测试：
 - macOS Monterey 12.6.3
 - macOS Ventura 13.2.1
+- macOS Ventura 13.3
 
 ## 工作正常
 
