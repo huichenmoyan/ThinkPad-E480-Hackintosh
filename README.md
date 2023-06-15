@@ -25,12 +25,14 @@
 
 ## 支持系统
 
-理论支持最新的macOS Ventura。
+支持最新的macOS Ventura。
+> 虽然在OpenCore 0.9.3下已可正常运行macOS Sonoma，但是无线网卡无法正常驱动，故不推荐。
 
 已测试：
 - macOS Monterey 12.6.3
 - macOS Ventura 13.2.1
 - macOS Ventura 13.3
+- macOS Ventura 13.4
 
 ## 工作正常
 
@@ -60,8 +62,7 @@
 
 - 独立显卡：无法正常驱动，已屏蔽。
 
-- 无线网卡：`Realtek RTL8821CE`无法正常驱动，且无解。建议更换为：`BCM94352Z (DW1560)`或其他免驱的网卡(可自行搜索)。
-  > 不推荐BCM94350ZAE (DW1820A)
+- 无线网卡：`Realtek RTL8821CE`无法正常驱动，且无解。个人已更换为：`BCM94352Z (DW1560)`，也可自行更换其他免驱的网卡(可自行搜索)。
 
 - 蓝牙：同无线网卡。更换后正常工作。
 
@@ -90,6 +91,11 @@
 3. 已注入`MacBook Pro 2019`的三码，但仍建议自己生成三码。
 
 ## 更新
+
+### 2023-06-15
+OpenCore版本: 0.9.2
+- 更新OpenCore
+- 更新Kexts
 
 ### 2023-02-18
 OpenCore版本: 0.8.9

@@ -25,12 +25,15 @@ Providing Hackintosh EFI for ThinkPad E480 (OpenCore)。
 
 ## Supported Systems
 
-It theoretically supports macOS Ventura
+Supports macOS Ventura
+> Although it can run macOS Sonoma, it can't drive wireless card.
 
 Tested on：
 
 - macOS Monterey 12.6.3
 - macOS Ventura 13.2.1
+- macOS Ventura 13.3
+- macOS Ventura 13.4
 
 ## What is working
 
@@ -83,6 +86,11 @@ Tested on：
   - Storage > Controller Mode: AHCI mode
 
 ## Updates
+
+### 2023-06-15
+OpenCore: 0.9.2
+- Update OpenCore
+- Update Kexts
 
 ### 2023-02-18
 OpenCore: 0.8.9
