@@ -67,9 +67,9 @@ Tested on：
 
 - <kbd>Fn</kbd> can't work after waking from sleep.
 
-- Bluetooth can't work after waking from sleep.(See: #1)
+- Bluetooth can't work after waking from sleep.(See: [#1](https://github.com/huichenmoyan/ThinkPad-E480-Hackintosh/issues/1))
 
-- Airdrop can only drop by one side.(See: #2)
+- Airdrop can only drop by one side.(See: [#2](https://github.com/huichenmoyan/ThinkPad-E480-Hackintosh/issues/2))
 
 ## Tips
 
