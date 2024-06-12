@@ -19,14 +19,14 @@
 |机械硬盘|WDC WD10SPZX-08Z10 1TB|
 |集成显卡|Intel UHD Graphics 620|
 |独立显卡|AMD Radeon RX 550 (2GB)|
-|声卡|Conexant CX20753/4 (节点:15)|
+|声卡|Conexant CX20753/4|
 |有线网卡|Realtek R8111GUS|
 |无线网卡|Realtek RTL8821CE -> BCM94352Z (DW1560)|
 
 ## 支持系统
 
 支持最新的macOS Ventura。
-> 虽然在OpenCore 0.9.3下已可正常运行macOS Sonoma，但是无线网卡无法正常驱动，故不推荐。
+> 无线网卡需要OCLP才能正常驱动。教程: [使用OCLP在macOS Sonoma中驱动博通网卡 (支持最新版 macOS)](https://bbs.pcbeta.com/viewthread-1975133-1-1.html)
 
 已测试：
 - macOS Monterey 12.6.3
@@ -70,6 +70,10 @@
 
 - <kbd>Fn</kbd>在睡眠唤醒后无法正常工作。
 
+- 蓝牙在睡眠唤醒后无法正常工作(详见: #1)
+
+- 隔空投送仅可单向(详见: #2)
+
 ## 注意事项：
 
 1. 请先使用通用镜像安装macOS，完成后再替换该EFI。
@@ -91,6 +95,12 @@
 3. 已注入`MacBook Pro 2019`的三码，但仍建议自己生成三码。
 
 ## 更新
+
+### 2024-06-12
+OpenCore版本: 1.0.0
+- 更新OpenCore
+- 更新Kexts
+- 小幅修改OpenCore配置
 
 ### 2023-06-15
 OpenCore版本: 0.9.2

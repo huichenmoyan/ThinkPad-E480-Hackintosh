@@ -26,7 +26,7 @@ Providing Hackintosh EFI for ThinkPad E480 (OpenCore)。
 ## Supported Systems
 
 Supports macOS Ventura
-> Although it can run macOS Sonoma, it can't drive wireless card.
+> Wireless card needs OpenCore Legacy Patcher to drive. See: [OpenCore-Legacy-Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher/pull/1077)
 
 Tested on：
 
@@ -67,6 +67,10 @@ Tested on：
 
 - <kbd>Fn</kbd> can't work after waking from sleep.
 
+- Bluetooth can't work after waking from sleep.(See: #1)
+
+- Airdrop can only drop by one side.(See: #2)
+
 ## Tips
 
 1. Please use the universal image to install macOS, then replacing the EFI.
@@ -86,6 +90,12 @@ Tested on：
   - Storage > Controller Mode: AHCI mode
 
 ## Updates
+
+### 2023-06-15
+OpenCore: 0.9.2
+- Update OpenCore
+- Update Kexts
+- Change OpenCore config
 
 ### 2023-06-15
 OpenCore: 0.9.2
