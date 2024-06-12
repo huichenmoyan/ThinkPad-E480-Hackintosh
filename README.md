@@ -70,9 +70,9 @@
 
 - <kbd>Fn</kbd>在睡眠唤醒后无法正常工作。
 
-- 蓝牙在睡眠唤醒后无法正常工作(详见: #1)
+- 蓝牙在睡眠唤醒后无法正常工作(详见: [#1](https://github.com/huichenmoyan/ThinkPad-E480-Hackintosh/issues/1))
 
-- 隔空投送仅可单向(详见: #2)
+- 隔空投送仅可单向(详见: [#2](https://github.com/huichenmoyan/ThinkPad-E480-Hackintosh/issues/2))
 
 ## 注意事项：
 
