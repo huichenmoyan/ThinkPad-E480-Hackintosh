@@ -25,7 +25,7 @@
 
 ## 支持系统
 
-支持最新的macOS Ventura。
+支持最新的macOS Sonoma。
 > 无线网卡需要OCLP才能正常驱动。教程: [使用OCLP在macOS Sonoma中驱动博通网卡 (支持最新版 macOS)](https://bbs.pcbeta.com/viewthread-1975133-1-1.html)
 
 已测试：
