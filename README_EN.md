@@ -25,7 +25,7 @@ Providing Hackintosh EFI for ThinkPad E480 (OpenCore)。
 
 ## Supported Systems
 
-Supports macOS Ventura
+Supports macOS Sonoma
 > Wireless card needs OpenCore Legacy Patcher to drive. See: [OpenCore-Legacy-Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher/pull/1077)
 
 Tested on：
